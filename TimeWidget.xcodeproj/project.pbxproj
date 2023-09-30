@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521A61242AC73CC300EAD824 /* TimeWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A61232AC73CC300EAD824 /* TimeWidgetApp.swift */; };
+		521A61262AC73CC300EAD824 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A61252AC73CC300EAD824 /* ContentView.swift */; };
+		521A61282AC73CC400EAD824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521A61272AC73CC400EAD824 /* Assets.xcassets */; };
+		521A612B2AC73CC400EAD824 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521A612A2AC73CC400EAD824 /* Preview Assets.xcassets */; };
+		521A61382AC73CE000EAD824 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521A61372AC73CE000EAD824 /* WidgetKit.framework */; };
+		521A613A2AC73CE000EAD824 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521A61392AC73CE000EAD824 /* SwiftUI.framework */; };
+		521A613D2AC73CE000EAD824 /* Time_MBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A613C2AC73CE000EAD824 /* Time_MBundle.swift */; };
+		521A613F2AC73CE000EAD824 /* Time_M.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A613E2AC73CE000EAD824 /* Time_M.swift */; };
+		521A61412AC73CE100EAD824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521A61402AC73CE100EAD824 /* Assets.xcassets */; };
+		521A61452AC73CE100EAD824 /* Time_MExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 521A61352AC73CE000EAD824 /* Time_MExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		521A614F2AC73E1300EAD824 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521A61372AC73CE000EAD824 /* WidgetKit.framework */; };
+		521A61502AC73E1300EAD824 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521A61392AC73CE000EAD824 /* SwiftUI.framework */; };
+		521A61532AC73E1300EAD824 /* WeekDay_SBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A61522AC73E1300EAD824 /* WeekDay_SBundle.swift */; };
+		521A61552AC73E1300EAD824 /* WeekDay_S.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A61542AC73E1300EAD824 /* WeekDay_S.swift */; };
+		521A61572AC73E1400EAD824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521A61562AC73E1400EAD824 /* Assets.xcassets */; };
+		521A615B2AC73E1400EAD824 /* WeekDay_SExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 521A614E2AC73E1300EAD824 /* WeekDay_SExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		521A61622AC7A94800EAD824 /* KCC-Ganpan.otf in Resources */ = {isa = PBXBuildFile; fileRef = 521A61612AC7A94800EAD824 /* KCC-Ganpan.otf */; };
+		521A61662AC7A9EA00EAD824 /* KCC-Ganpan.otf in Resources */ = {isa = PBXBuildFile; fileRef = 521A61652AC7A9EA00EAD824 /* KCC-Ganpan.otf */; };
+		521A616C2AC7B58000EAD824 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521A61372AC73CE000EAD824 /* WidgetKit.framework */; };
+		521A616D2AC7B58000EAD824 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521A61392AC73CE000EAD824 /* SwiftUI.framework */; };
+		521A61702AC7B58000EAD824 /* ChunsikW_SBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A616F2AC7B58000EAD824 /* ChunsikW_SBundle.swift */; };
+		521A61722AC7B58000EAD824 /* ChunsikW_S.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A61712AC7B58000EAD824 /* ChunsikW_S.swift */; };
+		521A61742AC7B58100EAD824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521A61732AC7B58100EAD824 /* Assets.xcassets */; };
+		521A61782AC7B58100EAD824 /* ChunsikW_SExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 521A616B2AC7B58000EAD824 /* ChunsikW_SExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		521A61432AC73CE100EAD824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521A61182AC73CC300EAD824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521A61342AC73CE000EAD824;
+			remoteInfo = Time_MExtension;
+		};
+		521A61592AC73E1400EAD824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521A61182AC73CC300EAD824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521A614D2AC73E1300EAD824;
+			remoteInfo = WeekDay_SExtension;
+		};
+		521A61762AC7B58100EAD824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521A61182AC73CC300EAD824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521A616A2AC7B58000EAD824;
+			remoteInfo = ChunsikW_SExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		521A61492AC73CE100EAD824 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				521A61782AC7B58100EAD824 /* ChunsikW_SExtension.appex in Embed Foundation Extensions */,
+				521A61452AC73CE100EAD824 /* Time_MExtension.appex in Embed Foundation Extensions */,
+				521A615B2AC73E1400EAD824 /* WeekDay_SExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		521A61202AC73CC300EAD824 /* TimeWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		521A61232AC73CC300EAD824 /* TimeWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWidgetApp.swift; sourceTree = "<group>"; };
+		521A61252AC73CC300EAD824 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		521A61272AC73CC400EAD824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521A612A2AC73CC400EAD824 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		521A61352AC73CE000EAD824 /* Time_MExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Time_MExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		521A61372AC73CE000EAD824 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		521A61392AC73CE000EAD824 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		521A613C2AC73CE000EAD824 /* Time_MBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_MBundle.swift; sourceTree = "<group>"; };
+		521A613E2AC73CE000EAD824 /* Time_M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_M.swift; sourceTree = "<group>"; };
+		521A61402AC73CE100EAD824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521A61422AC73CE100EAD824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521A614E2AC73E1300EAD824 /* WeekDay_SExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WeekDay_SExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		521A61522AC73E1300EAD824 /* WeekDay_SBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay_SBundle.swift; sourceTree = "<group>"; };
+		521A61542AC73E1300EAD824 /* WeekDay_S.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay_S.swift; sourceTree = "<group>"; };
+		521A61562AC73E1400EAD824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521A61582AC73E1400EAD824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521A61612AC7A94800EAD824 /* KCC-Ganpan.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KCC-Ganpan.otf"; sourceTree = "<group>"; };
+		521A61652AC7A9EA00EAD824 /* KCC-Ganpan.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KCC-Ganpan.otf"; sourceTree = "<group>"; };
+		521A616B2AC7B58000EAD824 /* ChunsikW_SExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ChunsikW_SExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		521A616F2AC7B58000EAD824 /* ChunsikW_SBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunsikW_SBundle.swift; sourceTree = "<group>"; };
+		521A61712AC7B58000EAD824 /* ChunsikW_S.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunsikW_S.swift; sourceTree = "<group>"; };
+		521A61732AC7B58100EAD824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521A61752AC7B58100EAD824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521A611D2AC73CC300EAD824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521A61322AC73CE000EAD824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521A613A2AC73CE000EAD824 /* SwiftUI.framework in Frameworks */,
+				521A61382AC73CE000EAD824 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521A614B2AC73E1300EAD824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521A61502AC73E1300EAD824 /* SwiftUI.framework in Frameworks */,
+				521A614F2AC73E1300EAD824 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521A61682AC7B58000EAD824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521A616D2AC7B58000EAD824 /* SwiftUI.framework in Frameworks */,
+				521A616C2AC7B58000EAD824 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521A61172AC73CC300EAD824 = {
+			isa = PBXGroup;
+			children = (
+				521A61222AC73CC300EAD824 /* TimeWidget */,
+				521A613B2AC73CE000EAD824 /* Time_M */,
+				521A61512AC73E1300EAD824 /* WeekDay_S */,
+				521A616E2AC7B58000EAD824 /* ChunsikW_S */,
+				521A61362AC73CE000EAD824 /* Frameworks */,
+				521A61212AC73CC300EAD824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		521A61212AC73CC300EAD824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521A61202AC73CC300EAD824 /* TimeWidget.app */,
+				521A61352AC73CE000EAD824 /* Time_MExtension.appex */,
+				521A614E2AC73E1300EAD824 /* WeekDay_SExtension.appex */,
+				521A616B2AC7B58000EAD824 /* ChunsikW_SExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521A61222AC73CC300EAD824 /* TimeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				521A61232AC73CC300EAD824 /* TimeWidgetApp.swift */,
+				521A61252AC73CC300EAD824 /* ContentView.swift */,
+				521A61272AC73CC400EAD824 /* Assets.xcassets */,
+				521A61292AC73CC400EAD824 /* Preview Content */,
+			);
+			path = TimeWidget;
+			sourceTree = "<group>";
+		};
+		521A61292AC73CC400EAD824 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				521A612A2AC73CC400EAD824 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		521A61362AC73CE000EAD824 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				521A61372AC73CE000EAD824 /* WidgetKit.framework */,
+				521A61392AC73CE000EAD824 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		521A613B2AC73CE000EAD824 /* Time_M */ = {
+			isa = PBXGroup;
+			children = (
+				521A61632AC7A96700EAD824 /* Font */,
+				521A613C2AC73CE000EAD824 /* Time_MBundle.swift */,
+				521A613E2AC73CE000EAD824 /* Time_M.swift */,
+				521A61402AC73CE100EAD824 /* Assets.xcassets */,
+				521A61422AC73CE100EAD824 /* Info.plist */,
+			);
+			path = Time_M;
+			sourceTree = "<group>";
+		};
+		521A61512AC73E1300EAD824 /* WeekDay_S */ = {
+			isa = PBXGroup;
+			children = (
+				521A61642AC7A9DF00EAD824 /* Font */,
+				521A61522AC73E1300EAD824 /* WeekDay_SBundle.swift */,
+				521A61542AC73E1300EAD824 /* WeekDay_S.swift */,
+				521A61562AC73E1400EAD824 /* Assets.xcassets */,
+				521A61582AC73E1400EAD824 /* Info.plist */,
+			);
+			path = WeekDay_S;
+			sourceTree = "<group>";
+		};
+		521A61632AC7A96700EAD824 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				521A61612AC7A94800EAD824 /* KCC-Ganpan.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		521A61642AC7A9DF00EAD824 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				521A61652AC7A9EA00EAD824 /* KCC-Ganpan.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		521A616E2AC7B58000EAD824 /* ChunsikW_S */ = {
+			isa = PBXGroup;
+			children = (
+				521A616F2AC7B58000EAD824 /* ChunsikW_SBundle.swift */,
+				521A61712AC7B58000EAD824 /* ChunsikW_S.swift */,
+				521A61732AC7B58100EAD824 /* Assets.xcassets */,
+				521A61752AC7B58100EAD824 /* Info.plist */,
+			);
+			path = ChunsikW_S;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521A611F2AC73CC300EAD824 /* TimeWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521A612E2AC73CC400EAD824 /* Build configuration list for PBXNativeTarget "TimeWidget" */;
+			buildPhases = (
+				521A611C2AC73CC300EAD824 /* Sources */,
+				521A611D2AC73CC300EAD824 /* Frameworks */,
+				521A611E2AC73CC300EAD824 /* Resources */,
+				521A61492AC73CE100EAD824 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521A61442AC73CE100EAD824 /* PBXTargetDependency */,
+				521A615A2AC73E1400EAD824 /* PBXTargetDependency */,
+				521A61772AC7B58100EAD824 /* PBXTargetDependency */,
+			);
+			name = TimeWidget;
+			productName = TimeWidget;
+			productReference = 521A61202AC73CC300EAD824 /* TimeWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		521A61342AC73CE000EAD824 /* Time_MExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521A61462AC73CE100EAD824 /* Build configuration list for PBXNativeTarget "Time_MExtension" */;
+			buildPhases = (
+				521A61312AC73CE000EAD824 /* Sources */,
+				521A61322AC73CE000EAD824 /* Frameworks */,
+				521A61332AC73CE000EAD824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Time_MExtension;
+			productName = Time_MExtension;
+			productReference = 521A61352AC73CE000EAD824 /* Time_MExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		521A614D2AC73E1300EAD824 /* WeekDay_SExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521A615C2AC73E1400EAD824 /* Build configuration list for PBXNativeTarget "WeekDay_SExtension" */;
+			buildPhases = (
+				521A614A2AC73E1300EAD824 /* Sources */,
+				521A614B2AC73E1300EAD824 /* Frameworks */,
+				521A614C2AC73E1300EAD824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeekDay_SExtension;
+			productName = WeekDay_SExtension;
+			productReference = 521A614E2AC73E1300EAD824 /* WeekDay_SExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		521A616A2AC7B58000EAD824 /* ChunsikW_SExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521A61792AC7B58100EAD824 /* Build configuration list for PBXNativeTarget "ChunsikW_SExtension" */;
+			buildPhases = (
+				521A61672AC7B58000EAD824 /* Sources */,
+				521A61682AC7B58000EAD824 /* Frameworks */,
+				521A61692AC7B58000EAD824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChunsikW_SExtension;
+			productName = ChunsikW_SExtension;
+			productReference = 521A616B2AC7B58000EAD824 /* ChunsikW_SExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521A61182AC73CC300EAD824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					521A611F2AC73CC300EAD824 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					521A61342AC73CE000EAD824 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					521A614D2AC73E1300EAD824 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					521A616A2AC7B58000EAD824 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 521A611B2AC73CC300EAD824 /* Build configuration list for PBXProject "TimeWidget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 521A61172AC73CC300EAD824;
+			productRefGroup = 521A61212AC73CC300EAD824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521A611F2AC73CC300EAD824 /* TimeWidget */,
+				521A61342AC73CE000EAD824 /* Time_MExtension */,
+				521A614D2AC73E1300EAD824 /* WeekDay_SExtension */,
+				521A616A2AC7B58000EAD824 /* ChunsikW_SExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521A611E2AC73CC300EAD824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521A612B2AC73CC400EAD824 /* Preview Assets.xcassets in Resources */,
+				521A61282AC73CC400EAD824 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521A61332AC73CE000EAD824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521A61622AC7A94800EAD824 /* KCC-Ganpan.otf in Resources */,
+				521A61412AC73CE100EAD824 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521A614C2AC73E1300EAD824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521A61662AC7A9EA00EAD824 /* KCC-Ganpan.otf in Resources */,
+				521A61572AC73E1400EAD824 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521A61692AC7B58000EAD824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521A61742AC7B58100EAD824 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521A611C2AC73CC300EAD824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521A61262AC73CC300EAD824 /* ContentView.swift in Sources */,
+				521A61242AC73CC300EAD824 /* TimeWidgetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521A61312AC73CE000EAD824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521A613F2AC73CE000EAD824 /* Time_M.swift in Sources */,
+				521A613D2AC73CE000EAD824 /* Time_MBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521A614A2AC73E1300EAD824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521A61552AC73E1300EAD824 /* WeekDay_S.swift in Sources */,
+				521A61532AC73E1300EAD824 /* WeekDay_SBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521A61672AC7B58000EAD824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521A61702AC7B58000EAD824 /* ChunsikW_SBundle.swift in Sources */,
+				521A61722AC7B58000EAD824 /* ChunsikW_S.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		521A61442AC73CE100EAD824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521A61342AC73CE000EAD824 /* Time_MExtension */;
+			targetProxy = 521A61432AC73CE100EAD824 /* PBXContainerItemProxy */;
+		};
+		521A615A2AC73E1400EAD824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521A614D2AC73E1300EAD824 /* WeekDay_SExtension */;
+			targetProxy = 521A61592AC73E1400EAD824 /* PBXContainerItemProxy */;
+		};
+		521A61772AC7B58100EAD824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521A616A2AC7B58000EAD824 /* ChunsikW_SExtension */;
+			targetProxy = 521A61762AC7B58100EAD824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		521A612C2AC73CC400EAD824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		521A612D2AC73CC400EAD824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521A612F2AC73CC400EAD824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = 52NJ98457L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ForKeyNote.TimeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521A61302AC73CC400EAD824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = 52NJ98457L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ForKeyNote.TimeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		521A61472AC73CE100EAD824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Time_M/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Time_M;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ForKeyNote.TimeWidget.Time-M";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521A61482AC73CE100EAD824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Time_M/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Time_M;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ForKeyNote.TimeWidget.Time-M";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		521A615D2AC73E1400EAD824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeekDay_S/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WeekDay_S;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ForKeyNote.TimeWidget.WeekDay-S";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521A615E2AC73E1400EAD824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeekDay_S/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WeekDay_S;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ForKeyNote.TimeWidget.WeekDay-S";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		521A617A2AC7B58100EAD824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChunsikW_S/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ChunsikW_S;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ForKeyNote.TimeWidget.ChunsikW-S";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521A617B2AC7B58100EAD824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChunsikW_S/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ChunsikW_S;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ForKeyNote.TimeWidget.ChunsikW-S";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521A611B2AC73CC300EAD824 /* Build configuration list for PBXProject "TimeWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521A612C2AC73CC400EAD824 /* Debug */,
+				521A612D2AC73CC400EAD824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521A612E2AC73CC400EAD824 /* Build configuration list for PBXNativeTarget "TimeWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521A612F2AC73CC400EAD824 /* Debug */,
+				521A61302AC73CC400EAD824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521A61462AC73CE100EAD824 /* Build configuration list for PBXNativeTarget "Time_MExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521A61472AC73CE100EAD824 /* Debug */,
+				521A61482AC73CE100EAD824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521A615C2AC73E1400EAD824 /* Build configuration list for PBXNativeTarget "WeekDay_SExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521A615D2AC73E1400EAD824 /* Debug */,
+				521A615E2AC73E1400EAD824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521A61792AC7B58100EAD824 /* Build configuration list for PBXNativeTarget "ChunsikW_SExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521A617A2AC7B58100EAD824 /* Debug */,
+				521A617B2AC7B58100EAD824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 521A61182AC73CC300EAD824 /* Project object */;
+}
